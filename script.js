@@ -17,7 +17,7 @@ fetch('https://jsonplaceholder.typicode.com/posts',{
 
 //3
 fetch("https://jsonplaceholder.typicode.com/nonexistent")
-.then(reponse => reponse.json())
+.then(response => response.json())
 .then(data => console.log(data))  
 .catch(error => console.error('Ошибка:', error)); 
 
